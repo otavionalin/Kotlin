@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="220dp"
+    android:layout_margin="16dp"
+    android:background="#DDDDDD">
+
+    <!-- Fundo -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Área de conteúdo (poderia ser uma ImageView)"
+        android:gravity="center" />
+
+    <!-- Rótulo sobreposto no canto -->
+    <TextView
+        android:text="SOBREPOSIÇÃO"
+        android:padding="8dp"
+        android:background="#AA000000"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="top|end"
+        android:layout_margin="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!-- Botão flutuante no canto inferior direito -->
+    <Button
+        android:text="Ação"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!-- Badge de notificação -->
+    <TextView
+        android:text="3"
+        android:textSize="12sp"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:background="@android:color/holo_red_dark"
+        android:layout_gravity="top|start"
+        android:layout_margin="8dp"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:padding="2dp"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:backgroundTintMode="src_in"
+        android:clipToOutline="true" />
+</FrameLayout>

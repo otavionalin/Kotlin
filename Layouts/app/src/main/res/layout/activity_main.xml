@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnLinear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LinearLayout" />
+
+        <Button
+            android:id="@+id/btnConstraint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ConstraintLayout"
+            android:layout_marginTop="12dp" />
+
+        <Button
+            android:id="@+id/btnFrame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FrameLayout (sobreposição)"
+            android:layout_marginTop="12dp" />
+
+        <Button
+            android:id="@+id/btnTable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TableLayout"
+            android:layout_marginTop="12dp" />
+
+        <Button
+            android:id="@+id/btnGrid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GridLayout"
+            android:layout_marginTop="12dp" />
+
+        <Button
+            android:id="@+id/btnScroll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ScrollView"
+            android:layout_marginTop="12dp" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="16dp"
+    android:stretchColumns="1"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+<TableRow>
+<TextView
+    android:text="Produto"
+    android:textStyle="bold" />
+<TextView
+    android:text="Descrição"
+    android:textStyle="bold" />
+<TextView
+    android:text="Preço"
+    android:textStyle="bold" />
+</TableRow>
+
+<TableRow>
+<TextView android:text="Café" />
+<TextView android:text="Torrado e moído" />
+<TextView android:text="R$ 15,00" />
+</TableRow>
+
+<TableRow>
+<TextView android:text="Chá" />
+<TextView android:text="Ervas selecionadas" />
+<TextView android:text="R$ 10,00" />
+</TableRow>
+
+    </TableLayout>
